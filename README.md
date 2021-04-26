@@ -5,6 +5,7 @@ libunibreak [https://github.com/adah1972/libunibreak]
 NLineBreak [https://github.com/Rungee/NLineBreak/]
 
 ## Getting Started
+```
 enum LineBreakResult {
   //必须换行
   must,
@@ -16,3 +17,4 @@ enum LineBreakResult {
   none,
 }
 List<LineBreakResult> findLineBreaks(String text, [String lang])
+```
