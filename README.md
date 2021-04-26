@@ -1,8 +1,9 @@
 # line_break
 支持 Dart 版本 Unicode 12 Line Break 算法，
 参考自 
-libunibreak [https://github.com/adah1972/libunibreak]
-NLineBreak [https://github.com/Rungee/NLineBreak/]
+
+[libunibreak](https://github.com/adah1972/libunibreak)
+[NLineBreak](https://github.com/Rungee/NLineBreak/)
 
 ## Getting Started
 ```
@@ -18,3 +19,4 @@ enum LineBreakResult {
 }
 List<LineBreakResult> findLineBreaks(String text, [String lang])
 ```
+ 
